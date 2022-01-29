@@ -182,7 +182,7 @@ namespace MomoryGame
 
         private void buttonCech_Click(object sender, EventArgs e)
         {
-
+            buttonCech.Enabled=false;
             if (Chack())
             {
                 gameData.Round++;
