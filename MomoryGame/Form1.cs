@@ -58,6 +58,10 @@ namespace MomoryGame
 
             GenerateMoves();
 
+            buttonLeftDown.Enabled = false;
+            buttonLeftUp.Enabled = false;
+            buttonRightDown.Enabled = false;
+            buttonRightUp.Enabled = false;
             Game();
 
             buttonLeftDown.BackColor = defColott;
@@ -66,6 +70,10 @@ namespace MomoryGame
             buttonRightUp.BackColor = defColott;
 
             WriteData();
+            buttonLeftDown.Enabled = true;
+            buttonLeftUp.Enabled = true;
+            buttonRightDown.Enabled = true;
+            buttonRightUp.Enabled = true;
             buttonCech.Enabled = true;
         }
 
